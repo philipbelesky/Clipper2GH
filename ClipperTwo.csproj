@@ -24,6 +24,7 @@
   <ItemGroup>
     <PackageReference Include="Clipper2" Version="1.2.3" />
     <PackageReference Include="Grasshopper" Version="7.34.23267.11001" />
+    <PackageReference Include="System.Resources.Extensions" Version="4.7.1" />
   </ItemGroup>
 
   <ItemGroup>
