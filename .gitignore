@@ -2,6 +2,8 @@
 .vs/
 # Visual Studio profiling/artefacts directory
 obj/
+# Visual Studio build output
+bin/
 
 # Prerequisites
 *.d

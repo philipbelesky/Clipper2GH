@@ -1,5 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-	
+
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
     <Version>1.0</Version>
@@ -10,21 +10,22 @@
     <Copyright>Angus Johnson</Copyright>
     <PackageProjectUrl>http://www.angusj.com/clipper2</PackageProjectUrl>
     <RepositoryUrl>https://github.com/AngusJohnson/Clipper2</RepositoryUrl>
-    <BaseOutputPath>C:\Users\archi\AppData\Roaming\Grasshopper\Libraries\clipperTwo\</BaseOutputPath>
+    <BaseOutputPath>$(SolutionDir)\bin\</BaseOutputPath>
     <SignAssembly>True</SignAssembly>
+    <GenerateResourceUsePreserializedResources>True</GenerateResourceUsePreserializedResources>
   </PropertyGroup>
-	
+
   <ItemGroup>
     <Compile Remove="ClipperPoly.cs" />
     <Compile Remove="ExportResult.cs" />
     <Compile Remove="VariableOffset.cs" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <PackageReference Include="Clipper2" Version="1.2.3" />
     <PackageReference Include="Grasshopper" Version="7.34.23267.11001" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <Reference Include="Clipper.FileIO">
       <HintPath>Resources\Clipper.FileIO.dll</HintPath>
@@ -34,7 +35,7 @@
     </Reference>
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -42,7 +43,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
   </ItemGroup>
-  
+
   <ItemGroup>
     <EmbeddedResource Update="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

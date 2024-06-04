@@ -12,3 +12,6 @@ https://www.food4rhino.com/en/app/clipper2
 
 ![1695552791135](https://github.com/seghier/Clipper2GH/assets/6026588/1817f785-fd69-4303-bdc9-fed2caa9624e)
 
+## Development Setup
+
+- Copy `Clipper2.SVG.dll` and `Clipper.FileIO.dll` to the `Resources` directoryvis
