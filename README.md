@@ -14,4 +14,4 @@ https://www.food4rhino.com/en/app/clipper2
 
 ## Development Setup
 
-- Copy `Clipper2.SVG.dll` and `Clipper.FileIO.dll` to the `Resources` directoryvis
+- Copy `Clipper2.SVG.dll` and `Clipper.FileIO.dll` to the `Resources` directory
